@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'> -->
+        <title>Kartu Rencana Studi</title>
+    </head>
+<style>
+    .container {  
+        margin: 0 auto;
+        width: 80%;
+        min-height: 760px;
+        height: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* border: 2px solid black; */
+        padding: 2px;
+        /* font-family: 'Times New Roman', Times, serif; */
+    }
+    font {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: center;
+        font-style: normal;
+        color: black;
+    }
+    table {
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    /* table.top-contain {
+        border-collapse: collapse;
+    } */
+    th {
+        text-align: center;
+        font-weight: bold;
+        background-color: #99CCFF;
+        height: 40px;
+        font-size: 25px;
+    }
+    td {
+        line-height: 30px;
+    }
+    /* table.td.tabel-atas {
+        text-align: left;
+    } */
+    .tabel-atas {
+        border-left: #000 2px solid;
+        border-top: #000 2px solid;
+        border-right: #000 2px solid;
+        border-bottom: none;
+        text-align: left;
+        padding: 5px;
+        line-height: 30px;
+    }
+    .kiri {
+        align-items: start;
+        text-align: left;
+    }
+    div {
+        text-align: center;
+        align-content: center;
+        /* font-weight: bold; */
+    }
+    .matkul {
+        text-align: left;
+        margin-left: 10px;
+    }
+    p {
+        font-weight: bold;
+    }
+    p.konten {
+        text-align: center;
+        font-weight: unset;
+        padding: 0px;
+        margin: 8px;
+    }
+    br {
+        padding: 20px;
+    }
+    .tabel-bawah {
+        border-collapse: collapse;
+        border: 2px solid #000;
+        width: 100%;
+        text-align: center;
+    }
+    .barcode {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div>
+            <table cellpadding="0" cellspacing="0" class="tabel-atas">
+                <tr>
+                    <td colspan="8">
+                        <tr>
+                            <td>NIM</td>
+                            <td>: 19225088</td>
+                            <td>Kel Ujian</td>
+                            <td>: 19.2A.24.A</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nama</td>
+                            <td>: PRADHIKA SETYAWAN</td>
+                            <td>Keterangan</td>
+                            <td>: 2</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Program</td>
+                            <td>: Sarjana (S1)</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>: 19.2A.24</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Smt</td>
+                            <td>: 2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </td>
+                </tr>
+            </table>
+        </div>
+            <table class="tabel-bawah" border="1">
+                <tr>
+                    <th width="30" rowspan="3">
+                        No
+                    </th>
+                    <th width="50" rowspan="3">
+                        Kode
+                    </th>
+                    <th width="250" rowspan="3">
+                        Mata Kuliah
+                    </th>
+                    <th width="50" rowspan="3">
+                        sks
+                    </th>
+                    <th colspan="4">
+                        Paraf
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        UTS
+                    </th>
+                    <th colspan="2">
+                        UAS
+                    </th>
+                </tr>
+                <tr>
+                    <th width="60">
+                        Tgl/Prf
+                    </th>
+                    <th width="20">
+                        Kd
+                    </th>
+                    <th width="60">
+                        Tgl/Prf
+                    </th>
+                    <th width="20">
+                        Kd
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        1 
+                    </td>
+                    <td>
+                        0186 
+                    </td>
+                    <td>
+                        <div class="matkul"> METODE PERANCANGAN PROGRAM  
+                    </td>
+                    <td>
+                        3 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2 
+                    </td>
+                    <td>
+                        105 
+                    </td>
+                    <td>
+                        <div class="matkul"> BAHASA INGGRIS II  
+                    </td>
+                    <td>
+                        2 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3 
+                    </td>
+                    <td>
+                        310 
+                    </td>
+                    <td>
+                        <div class="matkul"> STRUKTUR DATA  
+                    </td>
+                    <td>
+                        3 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4 
+                    </td>
+                    <td>
+                        360 
+                    </td>
+                    <td>
+                        <div class="matkul"> SISTEM BASIS DATA  
+                    </td>
+                    <td>
+                        3 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5 
+                    </td>
+                    <td>
+                        694 
+                    </td>
+                    <td>
+                        <div class="matkul"> APLIKASI BASIS DATA Kelompok (A)  
+                    </td>
+                    <td>
+                        3 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6 
+                    </td>
+                    <td>
+                        726 
+                    </td>
+                    <td>
+                        <div class="matkul"> WEB PROGRAMMING I Kelompok (A)  
+                    </td>
+                    <td>
+                        4 
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                    <td>
+                        ............
+                    </td>
+                    <td>
+                        <!-- baris 3 space kosong -->
+                    </td>
+                </tr>
+                <tr>
+                    <td height="20" colspan="2"></td>
+                    <td width="150" class="matkul" style="padding-left: 10px;">Jumlah SKS yang diambil</td>
+                    <td width="23">
+                        18
+                    </td>
+                    <td colspan="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8" bgcolor="#FFFFFF">
+                        <div>
+                            <p class="konten">Security Print Key :</p>
+                            
+                            <p>AA5-BA4-EA7-9D4-5A8</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8">
+                        <p class="konten">Pengolahan Data KRS Menggunakan Web ini adalah sah</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8">
+                        <p class="konten">KRS ini di Cetak Pada Tanggal 04-10-2023 Jam 12:35:45:PM<br>di Update Pada Tanggal 03-10-2023 Jam 21:27:47 &nbsp;</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
